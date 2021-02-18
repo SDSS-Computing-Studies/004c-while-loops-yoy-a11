@@ -28,7 +28,7 @@ while targetNum == 20:
     print(count)
     count = count + 2
     # time.sleep(x) will pause the program at this point for x seconds where x is a float 
-    time.sleep(0.1)
+    time.sleep(0.01)
     if count > 20:
         break
 print("===================")
