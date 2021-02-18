@@ -25,8 +25,8 @@ while username != a:
     print("Access denied")
     if password != b:
         print("Access denied")
-    username = str(input("username"))
-    password = str(input("password"))    
+    username = (input("username"))
+    password = (input("password"))    
 
 print("Access granted")
 
