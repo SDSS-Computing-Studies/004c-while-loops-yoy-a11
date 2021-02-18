@@ -23,8 +23,8 @@ b = str("12345")
 
 while username != a or password != b:
     print("Access denied")
-    username = str(input("username"))
     password = str(input("password"))
+    username = str(input("username"))
 if username == a and password == b:
     print("Access granted")
 
