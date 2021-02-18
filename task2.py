@@ -20,7 +20,11 @@ password = str(input("password"))
 
 a = str("admin")
 b = str("12345")
+
+while username != a or password != b:
+    print("Access denied")
+    username = str(input("username"))
+    password = str(input("password"))
 if username == a and password == b:
     print("Access granted")
-else:
-    print("Access denied")
+
