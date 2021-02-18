@@ -17,3 +17,13 @@ outputs:
 Access granted
 Access denied
 """
+
+username = str(input("please enter a username"))
+password = str(input("please enter a password"))
+
+if username == admin:
+    password == 12345
+print("Access granted")
+else                                                                                                                                                                                                                                                                                                       :
+    print("Access denied")
+
