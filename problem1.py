@@ -18,17 +18,18 @@ Access granted
 Access denied
 """
 i = 0
-username = 'a'
-password = 'a'
+username = ''
+password = ''
       
 while username != 'admin' or password !='12345':
     if i == 3:
         break
-    username = str(input())
-    password = str(input())
+    username = input()
+    password = input()
     i += 1
 
 if i < 3:
     print("Access granted")
 else:
     print("Access denied")
+    
