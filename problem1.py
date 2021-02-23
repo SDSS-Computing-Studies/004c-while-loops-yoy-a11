@@ -28,6 +28,8 @@ while username != 'admin' or password !='12345':
         break
     username = input("username: ")
     password = input("password: ")
+    print(username)
+    print(password)
     i += 1
 
 if i < 3:
