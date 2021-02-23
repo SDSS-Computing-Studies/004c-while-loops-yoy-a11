@@ -23,4 +23,4 @@ while k <= 100:
    i = j
    j = k
    k = i + j
-print(k, end =" ", flush=True) 
+print(k, end ="", flush=True) 
