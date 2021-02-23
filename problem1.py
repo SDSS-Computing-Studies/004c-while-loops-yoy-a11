@@ -26,8 +26,8 @@ while username != 'admin' or password !='12345':
         print("Access denied")
     if i == 3:
         break
-    username = input("username: ")
-    password = input("password: ")
+    username = input()
+    password = input()
     i += 1
 
 if i < 3:
