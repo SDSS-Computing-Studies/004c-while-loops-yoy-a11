@@ -12,18 +12,23 @@ any more and the program will end.
 inputs:
 str username
 str password
-
 outputs:
 Access granted
 Access denied
 """
+i = 0
+username = ''
+password = ''
+#24 -> 26..30 -> 24 -> 26 .. 30 -> 24 -> 26 .. 30 -> 24 -> 26
+#i=0       i=1      i=1       i=2     i=3       i=4      i=4         
+while username != 'admin' or password !='12345':
+    if i == 3:
+        break
+    username = str(input())
+    password = str(input())
+    i += 1
 
-username = str(input("please enter a username"))
-password = str(input("please enter a password"))
-
-if username == admin:
-    password == 12345
-print("Access granted")
-else                                                                                                                                                                                                                                                                                                       :
+if i < 3:
+    print("Access granted")
+else:
     print("Access denied")
-

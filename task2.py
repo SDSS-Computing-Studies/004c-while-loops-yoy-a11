@@ -16,7 +16,7 @@ Access granted
 Access denied
 """
 username = ""
-password =""
+password = ""
 
 while username != "admin" and password != "12345":
     username=input("please enter username")
