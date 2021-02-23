@@ -18,8 +18,8 @@ Access granted
 Access denied
 """
 i = 0
-username = ''
-password = ''
+username = 'a'
+password = 'a'
       
 while username != 'admin' or password !='12345':
     if i == 3:
